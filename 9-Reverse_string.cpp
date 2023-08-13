@@ -9,7 +9,8 @@ string StringReverse(const string& str,int index){
     return str.substr(index,1) + StringReverse(str,index-1);
 }
 
-int main(){
+int main()
+{
     string input;
     cout<<"Enter the string: ";
     cin>>input;
