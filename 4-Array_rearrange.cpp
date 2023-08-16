@@ -7,6 +7,7 @@ void func(vector<int> &arr) {
         if(x<0) {
             a.push_back(x);
         }
+            
         else {
             b.push_back(x);
         }
